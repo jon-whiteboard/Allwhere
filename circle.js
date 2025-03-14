@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
         scrub: true,
         // markers: true,
       },
-      rotate: "360deg",
+      rotate: "500deg",
       transformOrigin: "center center",
       ease: "none"
     }
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
         end: "bottom top",
         scrub: true,
       },
-      rotate: "-360deg",  // Rotate opposite to the circle
+      rotate: "-500deg",  // Rotate opposite to the circle
       transformOrigin: "center center",
       ease: "none"
     }
@@ -127,13 +127,13 @@ document.addEventListener('DOMContentLoaded', () => {
       start: "top 80%",
       end: "bottom bottom",
       scrub: true,
-      markers: true,
+      // markers: true,
     }
   });
 
   tl.to(rotateCircle, {
     scale: scaleTarget,
-    y: "-45%",
+    y: "-50rem",
     ease: "none"
   })
   .to(rotateIcons, {
